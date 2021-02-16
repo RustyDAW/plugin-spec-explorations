@@ -9,6 +9,7 @@ Problems with existing solutions include:
 * outdated technology with missing key features (VST, LV2, LADSPA)
 * closed and/or proprietary ecosystems with licensing hurdles (VST, VST3, AAX, AU)
 * not cross-platform (AAX, AU)
+* tough to bind to non-C++ languages (VST3)
 
 As a community of passionate developers and artists, we believe we are equipped to create a new standard from the ground-up to support the needs of modern plugin developers and artists, as well as leaving room for robust futureproofness. This document aims to spark discussions on what features should be implemented in the final spec, and how to best futureproof this spec.
 
