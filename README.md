@@ -37,7 +37,10 @@ description = [
 audio-outputs = 2
 audio-inputs = 2
 audio-sidechain-inputs = 0
-audio-through = true  # Signifies to the host that an input is directly connected to an output. This allows the host to use "process_replacing" if it wishes to. If the number of inputs does not equal the number of outputs, then the host will ignore this.
+# Signifies to the host that an input is directly connected to an output. This allows the
+# host to use "process_replacing" if it wishes to. If the number of inputs does not equal
+# the number of outputs, then the host will ignore this.
+audio-through = true  
 midi2-outputs = 0
 midi2-inputs = 1
 
